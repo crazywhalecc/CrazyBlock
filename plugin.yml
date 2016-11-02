@@ -1,0 +1,16 @@
+name: CrazyBlock
+main: BlueWhale\CrazyBlock\CrazyBlock
+api:
+- 1.0.0
+- 2.0.0
+- 2.1.0
+author: Whale
+version: 1.0.0
+
+commands:
+ cb:
+  permission: bw.command.cb
+  description: §6鲸鱼家里的疯狂的方块设置指令
+permissions:
+ bw.command.cb:
+  default: op
